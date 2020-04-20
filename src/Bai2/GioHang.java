@@ -40,4 +40,9 @@ public class GioHang
     {
         DsHangHoa.forEach(HH -> System.out.println("Hàng hóa: " + HH.ThongTinHangHoa()));
     }
-}
+
+    ArrayList<HangHoa> getDsHangHoa() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+}  
