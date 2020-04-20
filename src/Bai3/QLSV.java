@@ -27,6 +27,6 @@ public class QLSV
     }
    
     public void inDs() {
-        dsSinhVien.forEach(sv -> System.out.println("Sinh viên: " + sv.getThongTin()));
+        dsSinhVien.forEach((SinhVien sv) -> System.out.println(sv.getThongTin() + "Sinh viên: "));
     }
 }
