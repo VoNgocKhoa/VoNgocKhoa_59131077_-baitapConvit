@@ -41,6 +41,6 @@ public class GioHang
     }
     public void inDs() 
     {
-        DsHangHoa.forEach(HH -> System.out.println("Hàng hóa: " + HH.thongTinHH()));
+        DsHangHoa.forEach(HH -> System.out.println("Hàng hóa: " + HH.ThongTinHangHoa()));
     }
 }
