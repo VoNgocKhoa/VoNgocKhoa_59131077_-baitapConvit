@@ -28,10 +28,7 @@ public class GioHang
     
     public int TongTienHang() {
         int Tong = 0;
-        for (HangHoa HangHoa : DsHangHoa) 
-        {
-            Tong += HangHoa.getGia();
-        }
+        Tong = DsHangHoa.stream().map((HangHoa) -> HangHoa.getGia()).reduce(Tong, Integer::sum);
         return Tong;
     }
     
