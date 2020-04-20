@@ -17,9 +17,9 @@ public class HangHoa
     
     public HangHoa(String tenHH, int gia, String moTa) 
     {
-        this.TenHH = tenHH;
-        this.Gia = gia;
-        this.MoTa = moTa;
+        this.TenHH = TenHH;
+        this.Gia = Gia;
+        this.MoTa = MoTa;
     }
     
     public int getGia() 
@@ -27,7 +27,7 @@ public class HangHoa
         return Gia;
     }
     
-    public String thongTinHH() {
+    public String ThongTinHangHoa() {
         return "Tên hàng hóa: "  +  this.TenHH+ ",  Giá: "  +  this.Gia + ", Mô tả: "  +  this.MoTa;
     }
 }
